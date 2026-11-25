@@ -1,23 +1,4 @@
-"""
-================================================================================
-RUNGTA INTERNATIONAL SKILLS UNIVERSITY
-SCHOOL OF COMPUTER SCIENCE AND ENGINEERING
-Bachelor of Technology Computer Science and Engineering - First Semester
-PS No.: 45
-Project Title: Flappy Bird Clone
-Language: Python 3
-Concepts: Pygame, Gravity, Collision, Game Loop
 
-Specifications:
-- Window: 400x600
-- Bird: 30x30 at x = 100, starts at y = 300
-- Each frame: velocity += 1, then y += velocity
-- SPACE sets velocity = -10 before the frame update
-- Pipes: 60 px wide with a 150 px gap
-- Ground is at y = 600
-- Collisions: Pipes (Rect.colliderect), Ground (bottom >= 600), Top edge (top < 0)
-================================================================================
-"""
 
 import sys
 import random
